@@ -4,7 +4,7 @@ freq_map = dict()
 def uniqueElements(nums):
     for i in range(0, n):
         freq_map[nums[i]] = 0
-    
+    print(freq_map)
     j = 0
     for k in freq_map:
         nums[j] = k
